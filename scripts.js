@@ -31,4 +31,12 @@ Feel free to put any value.
 2. Use the for-in loop to display both the properties and values of the object.
 */
 
+const vehicle = {name:"4-Runner", brand:"Toyota", yearOfMake:2023, numberOfWheels:4, isEnvironmentFriendly:false};
+let txt = "";
+
+for (let x in vehicle) {
+    txt += `${x}: ${vehicle[x]}\n`;
+}
+
+console.log(txt);
 
